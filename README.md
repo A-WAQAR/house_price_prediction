@@ -5,3 +5,8 @@ Developed a House Price Prediction model using Python, Pandas, Scikit-Learn and 
 # house_price_eda
 
 Performed Exploratory Data Analysis (EDA) on a house price dataset using Python, Pandas, Matplotlib, and Seaborn. Analyzed data structure, missing values, statistical summaries, correlations, outliers, and feature relationships through histograms, box plots, heatmaps, and scatter plots.
+
+
+# data_cleaning and feature engineering
+
+Performed data cleaning, handled missing values, removed outliers using IQR, applied feature scaling and engineered new features to improve model readiness.
