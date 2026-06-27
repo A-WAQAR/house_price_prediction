@@ -17,9 +17,9 @@
 #     writer = csv.writer(f)
 #     writer.writerows(data)
 
-# load dataset
-import pandas as pd
-df = pd.read_csv("data.csv")
+# # load dataset
+# import pandas as pd
+# df = pd.read_csv("data.csv")
 
 # print(df.isnull().sum())
 # # basic data analysis
@@ -53,26 +53,4 @@ df = pd.read_csv("data.csv")
 # import joblib
 # joblib.dump(model, "model.pkl")
 
-import matplotlib.pyplot as plt
-df["area"].hist()
-plt.show()
 
-import seaborn as sns
-sns.boxplot(
-    x = df["area"]
-)
-plt.show()
-
-print(df.corr())
-
-import seaborn as sns
-sns.heatmap(
-    df.corr(),
-    annot = True
-)
-plt.show()
-
-plt.scatter(df["area"], df["price"])
-plt.xlabel("area")
-plt.ylabel("price")
-plt.show()
