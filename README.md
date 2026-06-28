@@ -14,3 +14,7 @@ Performed data cleaning, handled missing values, removed outliers using IQR, app
 # model trainig and model comparison
 
 Trained and compared Linear Regression, Decision Tree and Random Forest models, evaluated performance using R² score and selected the best-performing model for deployment.
+
+# house price prediction API with FastAPI
+
+Developed and deployed a FastAPI-based House Price Prediction API, serving machine learning predictions through REST endpoints with automatic Swagger documentation.
