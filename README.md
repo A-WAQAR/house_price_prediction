@@ -11,4 +11,6 @@ Performed Exploratory Data Analysis (EDA) on a house price dataset using Python,
 
 Performed data cleaning, handled missing values, removed outliers using IQR, applied feature scaling and engineered new features to improve model readiness.
 
+# model trainig and model comparison
 
+Trained and compared Linear Regression, Decision Tree and Random Forest models, evaluated performance using R² score and selected the best-performing model for deployment.
