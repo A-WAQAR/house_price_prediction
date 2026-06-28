@@ -54,7 +54,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-# convert 
+# convert into numerical 
 df_encoded = pd.get_dummies(
     df,
     columns= ["city"]
