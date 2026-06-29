@@ -18,3 +18,7 @@ Trained and compared Linear Regression, Decision Tree and Random Forest models, 
 # house price prediction API with FastAPI
 
 Developed and deployed a FastAPI-based House Price Prediction API, serving machine learning predictions through REST endpoints with automatic Swagger documentation.
+
+# Dockerize the House Price Prediction API
+
+Containerized a FastAPI-based House Price Prediction API using Docker, enabling consistent deployment across different environments.
