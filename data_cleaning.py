@@ -65,7 +65,7 @@ print(df_encoded)
 from sklearn.preprocessing import StandardScaler
 scaler  = StandardScaler()
 df[["area"]] = scaler.fit_transform(df[["area"]])
-print(df["area"])
+print(df[["area"]])
 
 # create new features
 df["price_per_sqft"] = (
